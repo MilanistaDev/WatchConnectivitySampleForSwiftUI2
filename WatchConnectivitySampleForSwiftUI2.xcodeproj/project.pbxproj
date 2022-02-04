@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		FD68F0D127AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F0D027AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift */; };
-		FD68F0D327AC183700379095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F0D227AC183700379095 /* ContentView.swift */; };
 		FD68F0D527AC183900379095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD68F0D427AC183900379095 /* Assets.xcassets */; };
 		FD68F0D827AC183900379095 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD68F0D727AC183900379095 /* Preview Assets.xcassets */; };
 		FD68F0DC27AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FD68F0DB27AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FD68F0E127AC183900379095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD68F0E027AC183900379095 /* Assets.xcassets */; };
 		FD68F0E727AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FD68F0E627AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		FD68F0EC27AC183900379095 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F0EB27AC183900379095 /* ContentView.swift */; };
 		FD68F0EE27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F0ED27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift */; };
 		FD68F0F027AC183900379095 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F0EF27AC183900379095 /* ComplicationController.swift */; };
 		FD68F0F227AC183A00379095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD68F0F127AC183A00379095 /* Assets.xcassets */; };
 		FD68F0F527AC183A00379095 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD68F0F427AC183A00379095 /* Preview Assets.xcassets */; };
+		FD68F10527AD749000379095 /* ReceiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10427AD749000379095 /* ReceiverView.swift */; };
+		FD68F10727AD74B900379095 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10627AD74B900379095 /* AnimalListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,18 +66,18 @@
 /* Begin PBXFileReference section */
 		FD68F0CD27AC183700379095 /* WatchConnectivitySampleForSwiftUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchConnectivitySampleForSwiftUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD68F0D027AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivitySampleForSwiftUI2App.swift; sourceTree = "<group>"; };
-		FD68F0D227AC183700379095 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD68F0D427AC183900379095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD68F0D727AC183900379095 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD68F0DB27AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchConnectivitySampleForSwiftUI2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD68F0E027AC183900379095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD68F0E627AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchConnectivitySampleForSwiftUI2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD68F0EB27AC183900379095 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD68F0ED27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivitySampleForSwiftUI2App.swift; sourceTree = "<group>"; };
 		FD68F0EF27AC183900379095 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		FD68F0F127AC183A00379095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD68F0F427AC183A00379095 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD68F0F627AC183A00379095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD68F10427AD749000379095 /* ReceiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverView.swift; sourceTree = "<group>"; };
+		FD68F10627AD74B900379095 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				FD68F0D027AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift */,
-				FD68F0D227AC183700379095 /* ContentView.swift */,
+				FD68F10427AD749000379095 /* ReceiverView.swift */,
 				FD68F0D427AC183900379095 /* Assets.xcassets */,
 				FD68F0D627AC183900379095 /* Preview Content */,
 			);
@@ -148,8 +148,8 @@
 		FD68F0EA27AC183900379095 /* WatchConnectivitySampleForSwiftUI2 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				FD68F0EB27AC183900379095 /* ContentView.swift */,
 				FD68F0ED27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift */,
+				FD68F10627AD74B900379095 /* AnimalListView.swift */,
 				FD68F0EF27AC183900379095 /* ComplicationController.swift */,
 				FD68F0F127AC183A00379095 /* Assets.xcassets */,
 				FD68F0F627AC183A00379095 /* Info.plist */,
@@ -297,7 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD68F0D327AC183700379095 /* ContentView.swift in Sources */,
+				FD68F10527AD749000379095 /* ReceiverView.swift in Sources */,
 				FD68F0D127AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD68F0EC27AC183900379095 /* ContentView.swift in Sources */,
+				FD68F10727AD74B900379095 /* AnimalListView.swift in Sources */,
 				FD68F0EE27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
 				FD68F0F027AC183900379095 /* ComplicationController.swift in Sources */,
 			);
