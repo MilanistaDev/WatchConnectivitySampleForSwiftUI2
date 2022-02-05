@@ -13,6 +13,7 @@ struct WatchConnectivitySampleForSwiftUI2App: App {
         WindowGroup {
             NavigationView {
                 AnimalListView()
+                    .navigationTitle("Animal List")
                     .navigationBarTitleDisplayMode(.inline)
             }
         }

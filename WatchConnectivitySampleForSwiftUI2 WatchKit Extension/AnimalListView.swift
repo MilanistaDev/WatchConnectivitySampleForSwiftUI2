@@ -9,7 +9,21 @@ import SwiftUI
 
 struct AnimalListView: View {
     var body: some View {
-        Text("Hello, World!")
+        List {
+            ForEach(animals, id: \.self) { animal in
+                Button {
+                    // Send Animal
+                } label: {
+                    HStack(spacing: 16.0) {
+                        Text(animal.emoji)
+                            .font(.title)
+                        Text(animal.name)
+                    }
+                    .padding(.vertical, 20.0)
+                }
+            }
+        }
+        .listStyle(CarouselListStyle())
     }
 }
 
