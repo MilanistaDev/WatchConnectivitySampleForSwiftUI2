@@ -19,6 +19,8 @@
 		FD68F0F527AC183A00379095 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD68F0F427AC183A00379095 /* Preview Assets.xcassets */; };
 		FD68F10527AD749000379095 /* ReceiverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10427AD749000379095 /* ReceiverView.swift */; };
 		FD68F10727AD74B900379095 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10627AD74B900379095 /* AnimalListView.swift */; };
+		FD68F10927AEBD3F00379095 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10827AEBD3F00379095 /* Animal.swift */; };
+		FD68F10A27AEBD3F00379095 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10827AEBD3F00379095 /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,7 @@
 		FD68F0F627AC183A00379095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD68F10427AD749000379095 /* ReceiverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverView.swift; sourceTree = "<group>"; };
 		FD68F10627AD74B900379095 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		FD68F10827AEBD3F00379095 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,7 @@
 				FD68F0F127AC183A00379095 /* Assets.xcassets */,
 				FD68F0F627AC183A00379095 /* Info.plist */,
 				FD68F0F327AC183A00379095 /* Preview Content */,
+				FD68F10827AEBD3F00379095 /* Animal.swift */,
 			);
 			path = "WatchConnectivitySampleForSwiftUI2 WatchKit Extension";
 			sourceTree = "<group>";
@@ -299,6 +303,7 @@
 			files = (
 				FD68F10527AD749000379095 /* ReceiverView.swift in Sources */,
 				FD68F0D127AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
+				FD68F10927AEBD3F00379095 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD68F10727AD74B900379095 /* AnimalListView.swift in Sources */,
+				FD68F10A27AEBD3F00379095 /* Animal.swift in Sources */,
 				FD68F0EE27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
 				FD68F0F027AC183900379095 /* ComplicationController.swift in Sources */,
 			);
