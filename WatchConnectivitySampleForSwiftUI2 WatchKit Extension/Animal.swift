@@ -11,3 +11,11 @@ struct Animal: Codable, Hashable {
     var name: String
     var emoji: String
 }
+
+let animals: [Animal] = [
+    Animal(name: "ネコ", emoji: "🐱"),
+    Animal(name: "イヌ", emoji: "🐶"),
+    Animal(name: "ハムスター", emoji: "🐹"),
+    Animal(name: "ドラゴン", emoji: "🐲"),
+    Animal(name: "ユニコーン", emoji: "🦄")
+]
