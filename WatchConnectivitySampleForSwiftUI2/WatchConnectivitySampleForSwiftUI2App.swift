@@ -11,7 +11,10 @@ import SwiftUI
 struct WatchConnectivitySampleForSwiftUI2App: App {
     var body: some Scene {
         WindowGroup {
-            ReceiverView()
+            NavigationView {
+                ReceiverView()
+                    .navigationTitle("Recieved Animal List")
+            }
         }
     }
 }
