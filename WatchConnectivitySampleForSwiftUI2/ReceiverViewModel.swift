@@ -1,6 +1,6 @@
 //
-//  AnimalListViewModel.swift
-//  WatchConnectivitySampleForSwiftUI2 WatchKit Extension
+//  ReceiverViewModel.swift
+//  WatchConnectivitySampleForSwiftUI2
 //
 //  Created by Takuya Aso on 2022/02/07.
 //
@@ -8,11 +8,11 @@
 import Foundation
 import WatchConnectivity
 
-final class AnimalListViewModel: NSObject {
+final class ReceiverViewModel: NSObject, ObservableObject {
 
     private let session: WCSession
     
-    init(session: WCSession  = .default) {
+    init(session: WCSession = .default) {
         self.session = session
         super.init()
         self.session.delegate = self
@@ -20,7 +20,7 @@ final class AnimalListViewModel: NSObject {
     }
 }
 
-extension AnimalListViewModel: WCSessionDelegate {
+extension ReceiverViewModel: WCSessionDelegate {
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         if let error = error {
             print(error.localizedDescription)
@@ -28,4 +28,6 @@ extension AnimalListViewModel: WCSessionDelegate {
             print("The session has completed activation.")
         }
     }
+    func sessionDidBecomeInactive(_ session: WCSession) { }
+    func sessionDidDeactivate(_ session: WCSession) { }
 }

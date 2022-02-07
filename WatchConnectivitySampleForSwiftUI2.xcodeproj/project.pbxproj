@@ -22,6 +22,7 @@
 		FD68F10927AEBD3F00379095 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10827AEBD3F00379095 /* Animal.swift */; };
 		FD68F10A27AEBD3F00379095 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10827AEBD3F00379095 /* Animal.swift */; };
 		FD68F10C27B1495300379095 /* AnimalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10B27B1495300379095 /* AnimalListViewModel.swift */; };
+		FD68F10E27B14EF800379095 /* ReceiverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		FD68F10627AD74B900379095 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 		FD68F10827AEBD3F00379095 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		FD68F10B27B1495300379095 /* AnimalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewModel.swift; sourceTree = "<group>"; };
+		FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			children = (
 				FD68F0D027AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift */,
 				FD68F10427AD749000379095 /* ReceiverView.swift */,
+				FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */,
 				FD68F0D427AC183900379095 /* Assets.xcassets */,
 				FD68F0D627AC183900379095 /* Preview Content */,
 			);
@@ -307,6 +310,7 @@
 				FD68F10527AD749000379095 /* ReceiverView.swift in Sources */,
 				FD68F0D127AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
 				FD68F10927AEBD3F00379095 /* Animal.swift in Sources */,
+				FD68F10E27B14EF800379095 /* ReceiverViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
