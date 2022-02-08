@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct AnimalListView: View {
+    
+    private var viewModel = AnimalListViewModel()
+    
     var body: some View {
         List {
             ForEach(animals, id: \.self) { animal in
                 Button {
-                    // Send Animal
+                    viewModel.transfer(animal: animal)
                 } label: {
                     HStack(spacing: 16.0) {
                         Text(animal.emoji)

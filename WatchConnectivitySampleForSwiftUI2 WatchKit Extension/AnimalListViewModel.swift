@@ -18,6 +18,16 @@ final class AnimalListViewModel: NSObject {
         self.session.delegate = self
         session.activate()
     }
+    
+    /// Transfer animal and date to iPhone
+    /// - Parameter animal: selected animal
+    func transfer(animal: Animal) {
+        let userInfo: [String: Any] = [
+            "animal": animal,
+            "timeStamp": Date()
+        ]
+        self.session.transferUserInfo(userInfo)
+    }
 }
 
 extension AnimalListViewModel: WCSessionDelegate {
