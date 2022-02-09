@@ -23,6 +23,8 @@
 		FD68F10A27AEBD3F00379095 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10827AEBD3F00379095 /* Animal.swift */; };
 		FD68F10C27B1495300379095 /* AnimalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10B27B1495300379095 /* AnimalListViewModel.swift */; };
 		FD68F10E27B14EF800379095 /* ReceiverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */; };
+		FD68F11127B3D4CA00379095 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10F27B3D4CA00379095 /* Record.swift */; };
+		FD68F11227B3D57300379095 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10F27B3D4CA00379095 /* Record.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,7 @@
 		FD68F10827AEBD3F00379095 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		FD68F10B27B1495300379095 /* AnimalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewModel.swift; sourceTree = "<group>"; };
 		FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverViewModel.swift; sourceTree = "<group>"; };
+		FD68F10F27B3D4CA00379095 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,7 @@
 				FD68F0F127AC183A00379095 /* Assets.xcassets */,
 				FD68F0F627AC183A00379095 /* Info.plist */,
 				FD68F0F327AC183A00379095 /* Preview Content */,
+				FD68F10F27B3D4CA00379095 /* Record.swift */,
 				FD68F10827AEBD3F00379095 /* Animal.swift */,
 			);
 			path = "WatchConnectivitySampleForSwiftUI2 WatchKit Extension";
@@ -309,6 +313,7 @@
 			files = (
 				FD68F10527AD749000379095 /* ReceiverView.swift in Sources */,
 				FD68F0D127AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
+				FD68F11227B3D57300379095 /* Record.swift in Sources */,
 				FD68F10927AEBD3F00379095 /* Animal.swift in Sources */,
 				FD68F10E27B14EF800379095 /* ReceiverViewModel.swift in Sources */,
 			);
@@ -320,6 +325,7 @@
 			files = (
 				FD68F10C27B1495300379095 /* AnimalListViewModel.swift in Sources */,
 				FD68F10727AD74B900379095 /* AnimalListView.swift in Sources */,
+				FD68F11127B3D4CA00379095 /* Record.swift in Sources */,
 				FD68F10A27AEBD3F00379095 /* Animal.swift in Sources */,
 				FD68F0EE27AC183900379095 /* WatchConnectivitySampleForSwiftUI2App.swift in Sources */,
 				FD68F0F027AC183900379095 /* ComplicationController.swift in Sources */,
