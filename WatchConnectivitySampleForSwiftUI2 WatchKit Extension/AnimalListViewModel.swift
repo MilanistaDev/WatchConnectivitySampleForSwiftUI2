@@ -22,10 +22,8 @@ final class AnimalListViewModel: NSObject {
     /// Transfer animal and date to iPhone
     /// - Parameter animal: selected animal
     func transfer(animal: Animal) {
-        let userInfo: [String: Any] = [
-            "animal": animal,
-            "timeStamp": Date()
-        ]
+        let record = Record(animal: animal, timeStamp: Date())
+        let userInfo: [String: Any] = ["record": record]
         self.session.transferUserInfo(userInfo)
     }
 }

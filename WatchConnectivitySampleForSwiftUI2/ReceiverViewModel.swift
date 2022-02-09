@@ -10,6 +10,8 @@ import WatchConnectivity
 
 final class ReceiverViewModel: NSObject, ObservableObject {
 
+    @Published var records: [Record] = []
+    
     private let session: WCSession
     
     init(session: WCSession = .default) {
@@ -30,4 +32,12 @@ extension ReceiverViewModel: WCSessionDelegate {
     }
     func sessionDidBecomeInactive(_ session: WCSession) { }
     func sessionDidDeactivate(_ session: WCSession) { }
+    
+    func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
+        guard let record = userInfo["record"] as? Record else {
+            // Error handring if need
+            return
+        }
+        records.append(record)
+    }
 }

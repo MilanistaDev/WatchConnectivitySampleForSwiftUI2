@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ReceiverView: View {
     
-    var receivedAnimals: [Animal] = []
+    @StateObject var viewModel = ReceiverViewModel()
     
     var body: some View {
         List {
-            ForEach(receivedAnimals, id: \.self) { animal in
+            ForEach(viewModel.records, id: \.self) { record in
                 VStack(alignment: .leading) {
-                    Text(animal.emoji + animal.name)
+                    Text(record.animal.emoji + record.animal.name)
                         .font(.body)
                         .padding(.vertical, 4.0)
                     // 受信時のタイムスタンプ
