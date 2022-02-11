@@ -25,6 +25,7 @@
 		FD68F10E27B14EF800379095 /* ReceiverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */; };
 		FD68F11127B3D4CA00379095 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10F27B3D4CA00379095 /* Record.swift */; };
 		FD68F11227B3D57300379095 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F10F27B3D4CA00379095 /* Record.swift */; };
+		FD68F11427B4630700379095 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68F11327B4630700379095 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		FD68F10B27B1495300379095 /* AnimalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListViewModel.swift; sourceTree = "<group>"; };
 		FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiverViewModel.swift; sourceTree = "<group>"; };
 		FD68F10F27B3D4CA00379095 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		FD68F11327B4630700379095 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				FD68F0D027AC183700379095 /* WatchConnectivitySampleForSwiftUI2App.swift */,
 				FD68F10427AD749000379095 /* ReceiverView.swift */,
 				FD68F10D27B14EF800379095 /* ReceiverViewModel.swift */,
+				FD68F11327B4630700379095 /* Date+Extension.swift */,
 				FD68F0D427AC183900379095 /* Assets.xcassets */,
 				FD68F0D627AC183900379095 /* Preview Content */,
 			);
@@ -316,6 +319,7 @@
 				FD68F11227B3D57300379095 /* Record.swift in Sources */,
 				FD68F10927AEBD3F00379095 /* Animal.swift in Sources */,
 				FD68F10E27B14EF800379095 /* ReceiverViewModel.swift in Sources */,
+				FD68F11427B4630700379095 /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,7 +599,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,7 +630,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
