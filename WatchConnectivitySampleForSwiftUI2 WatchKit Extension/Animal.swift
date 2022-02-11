@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Animal: Hashable {
+struct Animal: Codable, Hashable {
     var name: String
     var emoji: String
 }

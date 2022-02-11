@@ -18,8 +18,7 @@ struct ReceiverView: View {
                     Text(record.animal.emoji + record.animal.name)
                         .font(.body)
                         .padding(.vertical, 4.0)
-                    // 受信時のタイムスタンプ
-                    Text("2022/12/23 23:59:59")
+                    Text(record.timeStamp.toString())
                         .font(.footnote)
                         .foregroundColor(.gray)
                 }

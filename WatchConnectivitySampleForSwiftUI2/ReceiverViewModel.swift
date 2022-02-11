@@ -25,6 +25,7 @@ final class ReceiverViewModel: NSObject, ObservableObject {
 extension ReceiverViewModel: WCSessionDelegate {
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         if let error = error {
+            // Error handring if need
             print(error.localizedDescription)
         } else {
             print("The session has completed activation.")
@@ -34,10 +35,11 @@ extension ReceiverViewModel: WCSessionDelegate {
     func sessionDidDeactivate(_ session: WCSession) { }
     
     func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
-        guard let record = userInfo["record"] as? Record else {
+        guard let data = userInfo["record"] as? Data,
+              let record = try? JSONDecoder().decode(Record.self, from: data) else {
             // Error handring if need
             return
         }
-        records.append(record)
+        self.records.append(record)
     }
 }

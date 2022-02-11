@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Record: Hashable {
+struct Record: Codable, Hashable {
     var animal: Animal
     var timeStamp: Date
 }

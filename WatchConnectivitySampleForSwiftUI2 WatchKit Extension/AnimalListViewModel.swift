@@ -23,7 +23,11 @@ final class AnimalListViewModel: NSObject {
     /// - Parameter animal: selected animal
     func transfer(animal: Animal) {
         let record = Record(animal: animal, timeStamp: Date())
-        let userInfo: [String: Any] = ["record": record]
+        guard let data = try? JSONEncoder().encode(record) else {
+            // Error handring if need
+            return
+        }
+        let userInfo: [String: Any] = ["record": data]
         self.session.transferUserInfo(userInfo)
     }
 }
@@ -31,6 +35,7 @@ final class AnimalListViewModel: NSObject {
 extension AnimalListViewModel: WCSessionDelegate {
     func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
         if let error = error {
+            // Error handring if need
             print(error.localizedDescription)
         } else {
             print("The session has completed activation.")
