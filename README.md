@@ -1,0 +1,2 @@
+# WatchConnectivitySampleForSwiftUI2
+WIP
