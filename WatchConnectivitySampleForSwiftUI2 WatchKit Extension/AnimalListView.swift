@@ -9,7 +9,7 @@ import SwiftUI
 
 struct AnimalListView: View {
     
-    private var viewModel = AnimalListViewModel()
+    private let viewModel = AnimalListViewModel()
     
     var body: some View {
         List {
